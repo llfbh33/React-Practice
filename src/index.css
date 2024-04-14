@@ -13,6 +13,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 700px;
+  max-height: 500px;
+}
+
+nav a {
+  margin: 0 20px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: 3px solid gray;
+  text-decoration: none;
+  display: inline-flex;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -70,6 +95,15 @@ button:focus-visible {
 
 label {
   margin-right: 8px
+}
+
+.space {
+  margin-top: 30px;
+}
+
+.flexy {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (prefers-color-scheme: light) {

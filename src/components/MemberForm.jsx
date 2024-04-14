@@ -49,7 +49,7 @@ function MemberForm() {
 
     return (
       <>
-        <h1>Basic Form</h1>
+        <h1></h1>
         <form onSubmit={onSubmit}>
           <div className='input'>
             <label htmlFor='name'>Name</label>
